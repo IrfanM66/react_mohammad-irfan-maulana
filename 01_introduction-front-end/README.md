@@ -11,3 +11,6 @@ Section `Introduction FE` tanggal `14 Agustus 2023`
 
 Dan itulah yang dipelajari dipertemuan awal ini, dan dari materi tadi bisa didapatkan kesimpulan bahwa banyak jalan untuk menjadi front end, dengan memahami komponen penting dan version control yang akan memudahkan untuk melakukan dokumentasi atau bekerja secara tim/berkelompok
 
+
+[Latihan - Introduction FE](https://docs.google.com/document/d/13pN5Zuyc8TQwlvcR4ZDG4L76xWSsYwXjT8LbrYaMKNQ/edit) 
+
