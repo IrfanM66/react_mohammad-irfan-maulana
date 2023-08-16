@@ -4,7 +4,9 @@
 
 
 3 hal yang dipelajari di materi pertama yaitu mengenal apa itu front end. Untuk outline dari setiap materinya adalah sebagai berikut :
+
 ---
+
 1. Internet : internet merupakan hal paling penting dan terdapat dalam roadmap.sh bahwa internet adalah perantara penghubung seorang IT dengan orang lain dalam sebuah jaringan  
 2. HTML, CSS, dan Javascript : ketiga komponen penting yang harus dikuasai oleh seorang front end sebelum mempelajari bahasa lainnya
 3. Version Control : version control system menggunakan git dan github. git berfokus untuk project pengembangan aplikasi dengan menggunakan CLI. sedangkan github pada project pengembangan website yang ingin memanfaatkan fitur git yang dapat diakses dengan aplikasi berbasis desktop
