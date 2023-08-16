@@ -10,5 +10,7 @@ Branch and Conflict : selanjutnya kita belajar branch yaitu pencabangan. Berfung
 
 ---
 
+![TEST](<Screenshot (1662).png>) 
+
 
 
