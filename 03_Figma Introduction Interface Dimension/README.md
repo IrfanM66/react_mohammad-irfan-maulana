@@ -20,4 +20,4 @@ Pada figma, kita dapat membuat desain UI sesuai keinginan kita yang nantinya aka
         1. Tidak dapat digunakan jika tidak terhubung internet
         2. Perlu spesifikasi yang lumayan mumpuni untuk melakukan prototyping
 
-Dari materi diatas kita juga tidak harus menggunakan figma, banyak aplikasi desain UI yang bisa digunakan, tergantung kenyamanan dari penggunanya sehingga menghasilkan design yang baik dan jelas
+Dari materi diatas kita juga tidak harus menggunakan figma, banyak aplikasi desain UI yang bisa digunakan, tergantung kenyamanan dari penggunanya sehingga menghasilkan design yang baik dan dapat dipahami developer
