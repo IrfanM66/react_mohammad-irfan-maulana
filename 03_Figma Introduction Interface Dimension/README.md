@@ -26,6 +26,6 @@ Dari materi diatas kita juga tidak harus menggunakan figma, banyak aplikasi desa
 
 ---
 
-## TUGAS
+## TUGAS FIGMA
 
 `Link Tugas Figma` : https://www.figma.com/file/cnpajRFRyLjSPnAJFl0zRG/FIGMA-TUGAS-ALTERRA?type=design&node-id=0%3A1&mode=design&t=39x0n2eHoKYtBWjX-1 
