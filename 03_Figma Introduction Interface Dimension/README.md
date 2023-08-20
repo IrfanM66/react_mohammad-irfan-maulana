@@ -2,6 +2,8 @@ Section `Figma` pada tanggal `17-18 Agustus 2023`
 
 ---
 
+## RESUME
+
 #### Pada materi kali ini saya mempelajari 3 sub materi yaitu:
 
 1. `Pengertian Figma`: Figma adalah alat desain vektor dan prototyping berbasis web yang sangat populer dan kuat yang digunakan untuk membuat desain antarmuka pengguna (UI/UX), dapat digunakan di Mac dan PC.
@@ -21,3 +23,9 @@ Pada figma, kita dapat membuat desain UI sesuai keinginan kita yang nantinya aka
         2. Perlu spesifikasi yang lumayan mumpuni untuk melakukan prototyping
 
 Dari materi diatas kita juga tidak harus menggunakan figma, banyak aplikasi desain UI yang bisa digunakan, tergantung kenyamanan dari penggunanya sehingga menghasilkan design yang baik dan dapat dipahami developer
+
+---
+
+## TUGAS
+
+`Link Tugas Figma` : https://www.figma.com/file/cnpajRFRyLjSPnAJFl0zRG/FIGMA-TUGAS-ALTERRA?type=design&node-id=0%3A1&mode=design&t=39x0n2eHoKYtBWjX-1 
