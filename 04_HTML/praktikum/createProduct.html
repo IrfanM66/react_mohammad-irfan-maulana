@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Create Product</title>
+    <style>
+      .button-submit {
+        border: 2px solid #000;
+        background-color: #d9d9d9;
+      }
+      label {
+        display: block;
+        margin-bottom: 4px;
+      }
+      .product {
+        margin-bottom: 6px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <h1>Create Product</h1>
+    <h2>Detail Product</h2>
+
+    <form action="/submit" method="post">
+      <div class="product">
+        <label for="product-name">Product name :</label>
+        <input
+          id="product-name"
+          type="text"
+          pattern=".{6,50}"
+          title="Product Name must be 6 to 50 characters"
+          required
+        />
+      </div>
+
+      <div class="product">
+        <label for="product-category">Product Category :</label>
+        <select id="product-category">
+          <option selected></option>
+          <option>selected</option>
+        </select>
+      </div>
+
+      <div class="product">
+        <P>Product Freshness :</P>
+        <label for="brand-new"> <input type="radio" name="brand" id="brand-new"/>Brand New</label>
+        <label for="second-hand"> <input type="radio" name="brand" id="second-hand"/>Second Hand </label>
+        <label for="refurbish"> <input type="radio" name="brand" id="refurbish"/>Refurbish </label>
+      </div>
+
+      <div class="product">
+        <p>Image of Product <input type="file" /></p>
+      </div>
+
+      <div class="product">
+        <p>Additional Description</p>
+        <textarea style="width: 241px; height: 117px; resize: none"></textarea>
+      </div>
+
+      <div class="product">
+        <p>Product Price :</p>
+        <input
+          type="number"
+          placeholder="$100"
+          id="product-price"
+          name="product-price"
+          pattern="\d+"
+          title="Product Price must be a numeric value"
+          required
+        />
+      </div>
+
+      <div class="product">
+        <button class="button-submit" type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
