@@ -9,6 +9,7 @@
       }
       label {
         display: block;
+        margin-bottom: 4px;
       }
       .product {
         margin-bottom: 6px;
@@ -23,8 +24,9 @@
 
     <form action="/submit" method="post">
       <div class="product">
-        <p>Product Name :</p>
+        <label for="product-name">Product name :</label>
         <input
+          id="product-name"
           type="text"
           pattern=".{6,50}"
           title="Product Name must be 6 to 50 characters"
@@ -33,18 +35,18 @@
       </div>
 
       <div class="product">
-        <p>Product Category :</p>
-        <select>
+        <label for="product-category">Product Category :</label>
+        <select id="product-category">
           <option selected></option>
           <option>selected</option>
         </select>
       </div>
 
       <div class="product">
-        <label for="product">Product Freshness :</label>
-        <label> <input type="radio" name="brand" />Brand New</label>
-        <label> <input type="radio" name="brand" />Second Hand </label>
-        <label> <input type="radio" name="brand" />Refurbish </label>
+        <P>Product Freshness :</P>
+        <label for="brand-new"> <input type="radio" name="brand" id="brand-new"/>Brand New</label>
+        <label for="second-hand"> <input type="radio" name="brand" id="second-hand"/>Second Hand </label>
+        <label for="refurbish"> <input type="radio" name="brand" id="refurbish"/>Refurbish </label>
       </div>
 
       <div class="product">
