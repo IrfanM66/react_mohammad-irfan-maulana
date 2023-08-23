@@ -1,36 +1,81 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
     <title>Create Product</title>
     <style>
-        .price-box {
-            display: inline-flex;
-            padding: 3px 12px;
-            border: 2px solid #000;
-            background-color: #f5f5f5;
-            font-weight: medium;
-        }
+      .button-submit {
+        border: 2px solid #000;
+        background-color: #d9d9d9;
+      }
+      label {
+        display: block;
+      }
+      .product {
+        margin-bottom: 6px;
+      }
+      .price-box {
+        display: inline-flex;
+        padding: 3px 12px;
+        border: 2px solid #000;
+        background-color: #f5f5f5;
+        font-weight: medium;
+      }
     </style>
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
     <h1>Create Product</h1>
     <h2>Detail Product</h2>
-    <p>Product Name :</p>
-    <input type="text">
-    <p>Product Category :</p>
-    <select>
-        <option selected></option>
-        <option>Select Category</option>
-    </select>
-    <p><label for="product">Product Freshness :</label></p>
-    <input type="radio" name="brand">Brand New<br>
-    <input type="radio" name="brand">Second Hand<br>
-    <input type="radio" name="brand">Refurbish
-    <p>Image of Product <input type="file"></p>
-    <p>Additional Description</p>
-    <textarea style="width: 241px; height: 117px; resize: none;"></textarea>
-    <p>Product Price :</p>
-    <p><span class="price-box">$ 100</span></p>
-    <input type="submit" style="border: 2px solid #000; background-color: #D9D9D9;">
-</body>
+
+    <form action="/submit" method="post">
+      <div class="product">
+        <p>Product Name :</p>
+        <input
+          type="text"
+          pattern=".{6,50}"
+          title="Product Name must be 6 to 50 characters"
+          required
+        />
+      </div>
+
+      <div class="product">
+        <p>Product Category :</p>
+        <select>
+          <option selected></option>
+          <option>selected</option>
+        </select>
+      </div>
+
+      <div class="product">
+        <label for="product">Product Freshness :</label>
+        <label> <input type="radio" name="brand" />Brand New</label>
+        <label> <input type="radio" name="brand" />Second Hand </label>
+        <label> <input type="radio" name="brand" />Refurbish </label>
+      </div>
+
+      <div class="product">
+        <p>Image of Product <input type="file" /></p>
+        <p>Additional Description</p>
+        <textarea style="width: 241px; height: 117px; resize: none"></textarea>
+      </div>
+
+      <div class="product">
+        <p>Product Price :</p>
+        <input
+          type="number"
+          placeholder="$100"
+          id="product-price"
+          name="product-price"
+          pattern="\d+"
+          title="Product Price must be a numeric value"
+          required
+        />
+      </div>
+
+      <div class="product">
+        <button class="button-submit" type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
 </html>
