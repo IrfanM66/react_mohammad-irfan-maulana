@@ -15,12 +15,7 @@ Pada materi `Javascript Refreshment` terdapat beberapa materi pokok, yaitu diant
 
 2. `Function` : merupakan sebuah object karena memiliki properti dan method. Function digunakan untuk melakukan serangkaian komputasi ataupun prosedur yang bisa digunakan berkali-kali.
 
-[Function](image.png)
-
 3. `Document Object Model (DOM)` : merupakan sebuah API untuk HTML yang mempresentasikan website pada suatu dokumen menjadi objek.  
-
-DOM Selection Method :
-[DOM](image-2.png) 
 
 --- 
 
