@@ -16,3 +16,4 @@ function productForm(event) {
     alert("Last Price must not exceed 25 characters.");
   }
 }
+
