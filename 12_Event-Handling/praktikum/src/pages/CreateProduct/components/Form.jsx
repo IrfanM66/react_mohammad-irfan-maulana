@@ -59,8 +59,8 @@ const Form = ({
           id="product_category"
           required=""
         >
-          <option value={1}>Buah</option>
-          <option value={2}>Sayur</option>
+          <option value={1}>T-Shirt</option>
+          <option value={2}>Hoodie</option>
           <option value={3}>Lainnya</option>
         </select>
         <div className="valid-feedback">Sudah benar!</div>
