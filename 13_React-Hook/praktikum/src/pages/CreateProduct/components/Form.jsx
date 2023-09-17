@@ -76,8 +76,8 @@ const Form = ({
           required
           onChange={(e) => setCategoryValue(e.target.value)}
         >
-          <option value="Buah">Buah</option>
-          <option value="Sayur">Sayur</option>
+          <option value="T-Shirt">T-Shirt</option>
+          <option value="Hoodie">Hoodie</option>
           <option value="Lainnya">Lainnya</option>
         </select>
       </div>
