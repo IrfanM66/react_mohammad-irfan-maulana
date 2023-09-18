@@ -1,0 +1,53 @@
+.container-fluid {
+  display: flex;
+  width: 1440px;
+  height: 60px;
+  padding: 8.5px 34px 8.5px 16px;
+  align-items: center;
+  background: var(--bs-white, #fff);
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav {
+  gap: 16px;
+}
+
+.top-main {
+  width: 936px;
+  height: 299.391px;
+  flex-shrink: 0;
+}
+
+.bootstrap-logo {
+    height: 35px;
+}
+
+
+.imProduct input[type=file]::file-selector-button{
+    color:white;
+    background-color: #0D6EFD !important;
+}
+
+.imProduct input {
+    color:#0D6EFD;
+   
+}
+
+.detail {
+    margin-top: 70px;
+}
+
+.detail-product {
+    max-width: 936px;
+    width: 100%; 
+}
+
+.detail-product-form {
+    max-width: 656px;
+    width: 100%;
+}
+
+.detail-form {
+    padding: 47px 28px 10px 25px;
+
+}
