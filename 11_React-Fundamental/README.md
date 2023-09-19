@@ -2,7 +2,7 @@
 
 --- 
 
-Pada materi kali ini saya belajar menggunakan JSX. JSX adalah sebuah ekstensi dalam javascript yang memungkinkan kita menulis syntax HTML dalam javascript. Dengan adanya JSX, kita dapat memanfaatkan konsep _separation of concern_ alih-alih _separation of technology_.
+Pada materi kali ini saya menggunakan JSX. JSX adalah sebuah ekstensi dalam javascript yang memungkinkan kita menulis syntax HTML dalam javascript. Dengan adanya JSX, kita dapat memanfaatkan konsep _separation of concern_ alih-alih _separation of technology_.
 
 1. `React Component` : React Component adalah sebuah kumpulan kode yang membentuk suatu unit UI dalam reactjs. Biasanya sebuah _react component_ digunakan untuk menentukan tampilan, behaviour, dan state dari sebuah UI.
 
