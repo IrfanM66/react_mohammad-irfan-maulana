@@ -12,7 +12,7 @@ const CreateProduct = () => {
   const { createProduct: buttonLang } = language;
 
   useEffect(() => {
-    window.alert("Welcome");
+    window.alert("Welcome, User!");
   }, []);
 
   const handleSubmit = (product) => {
