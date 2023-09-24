@@ -1,6 +1,6 @@
 # Section `Event Handling`
 
----
+--- 
 
 ### State
 
@@ -19,4 +19,4 @@ _State_ sendiri menentukan perilaku dari komponen yang kita punya. Kita dapat me
 
 Event Handling adalah metode penanganan sebuah masukan yang dilakukan oleh pengguna pada aplikasi kita. Terdapat banyak sekali event yang dapat dilakukan pengguna.
 
-Untuk list lengkap event apa saja yang dapat kita gunakan dapat dilihat [di sini](https://reactjs.org/docs/events.html#form-events)
+--- 
