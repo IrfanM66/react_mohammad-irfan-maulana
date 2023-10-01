@@ -1,1 +1,1 @@
-Link [Aplikasi](https://react-deployment-six.vercel.app/)
+Link [Aplikasi](https://react-deployment-six.vercel.app/) - deployment
