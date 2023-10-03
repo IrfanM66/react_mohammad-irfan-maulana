@@ -11,9 +11,9 @@ const CreateProduct = () => {
   const [products, setProducts] = useState([]);
   const { createProduct: buttonLang } = language;
 
-  useEffect(() => {
-    window.alert("Welcome, User!");
-  }, []);
+  // useEffect(() => {
+  //   window.alert("Welcome");
+  // }, []);
 
   const handleSubmit = (product) => {
     product.uuid = uuid();
@@ -26,7 +26,7 @@ const CreateProduct = () => {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid mt-5">
       <div className="d-flex justify-content-center mb-5">
         <button
           onClick={() => {
