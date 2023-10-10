@@ -9,14 +9,23 @@ nav {
   align-items: center;
   color: white;
   padding: 2rem 4rem;
+  position: fixed;
+  background-color: #2e2424;
+  padding: 14px 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .nav_logo {
-  font-size: 2rem;
+  font-size: 20px;
   letter-spacing: 2px;
+  margin-left: 30px;
 }
 .nav_links {
   display: flex;
-  column-gap: 2rem;
-  font-weight: 600;
+  column-gap: 30px;
+  font-weight: 400;
   font-size: 1.15rem;
+  margin-right: 40px;
 }
