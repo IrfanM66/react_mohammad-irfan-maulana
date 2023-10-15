@@ -11,10 +11,6 @@ const CreateProduct = () => {
   const [products, setProducts] = useState([]);
   const { createProduct: buttonLang } = language;
 
-  // useEffect(() => {
-  //   window.alert("Welcome");
-  // }, []);
-
   const handleSubmit = (product) => {
     product.uuid = uuidv4();
     setProducts([...products, product]);
