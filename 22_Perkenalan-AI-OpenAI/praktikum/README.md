@@ -1,0 +1,1 @@
+![Screenshot playground openAI](../screenshot/Screenshot%20(1917).png)
