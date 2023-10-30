@@ -2,9 +2,7 @@ import { AxiosError } from "axios";
 import { axiosInstance } from "../configs/axiosInstance";
 
 export const APIProduct = {
-  getProducts: async () => {
-    
-  },
+  getProducts: async () => {},
 
   getProductById: async (id) => {
     try {
