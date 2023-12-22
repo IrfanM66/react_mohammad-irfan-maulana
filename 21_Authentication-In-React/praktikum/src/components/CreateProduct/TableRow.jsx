@@ -9,8 +9,8 @@ const TableRow = ({
     productCategory,
     productFreshness,
     productPrice,
-    image,
-    additionalDescription,
+    // image,
+    // additionalDescription,
   },
 }) => {
   return (
